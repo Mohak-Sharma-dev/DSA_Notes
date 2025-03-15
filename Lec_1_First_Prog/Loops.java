@@ -7,6 +7,7 @@ public class Loops {
         int count1 = 0;
         int count2 = 1;
         int count3 = 4;
+        char[][] name = {{'M','o','h','a','k'},{'S','h','a','r','m','a'}};
 
         if(count1 == 0)
         {
@@ -23,6 +24,12 @@ public class Loops {
         {
             System.out.println("Hello!!");
 
+        }
+
+        for (char[] i : name) {
+
+            System.out.println(i);
+            
         }
 
         
